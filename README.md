@@ -1,11 +1,6 @@
 # Hugging Face Skills
 
-This repository contains skills for your coding agent to use when working with Hugging Face. It's compatible Claude Code, Google Gemini, and OpenAI Codex.
-
-Skills are self-contained folders that package instructions, scripts, and resources. Each folder includes a `SKILL.md` file with YAML frontmatter (name and description) followed by the guidance your coding agent follows while the skill is active. 
-
-> [!NOTE]
-> 'Skills' is actually an Anthropic term used within Claude Code and not adopted by other agent tools, but we love it! OpenAI Codex uses an `AGENTS.md` file to define the instructions for your coding agent. Google Gemini uses 'extensions' to define the instructions for your coding agent in a `gemini-extension.json` file.
+Hugging Face Skills are Agent Context Protocol (ACP) definitions for AI/ML tasks like dataset creation, model training, and evaluation. They are interoperable with all major coding agent tools like OpenAI Codex, Anthropic's Claude Code, Google DeepMind's Gemini CLI, and Cursor.
 
 --- 
 
@@ -24,6 +19,13 @@ Skills are self-contained folders that package instructions, scripts, and resour
 **Get started:** [Join the hackathon org](https://huggingface.co/organizations/hf-skills/share/KrqrmBxkETjvevFbfkXeezcyMbgMjjMaOp) → Read [apps/quests/01_start.md](apps/quests/01_start.md) → Pick a quest
 
 ---
+
+## How do Skill's work?
+
+In practice, skills are self-contained folders that package instructions, scripts, and resources together for an AI agent to use on a specific use case. Each folder includes a `SKILL.md` file with YAML frontmatter (name and description) followed by the guidance your coding agent follows while the skill is active. 
+
+> [!NOTE]
+> 'Skills' is actually an Anthropic term used within Claude AI and Claude Code and not adopted by other agent tools, but we love it! OpenAI Codex uses an `AGENTS.md` file to define the instructions for your coding agent. Google Gemini uses 'extensions' to define the instructions for your coding agent in a `gemini-extension.json` file. **This repo is compatible with all of them, and more!**
 
 ## Installation
 
