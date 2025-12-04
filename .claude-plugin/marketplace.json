@@ -5,7 +5,10 @@
   "version": "1.0.0",
   "author": "Hugging Face",
   "repository": "https://github.com/realdanielbyrne/skills",
-  "owner": "realdanielbyrne",
+  "owner": {
+    "name": "realdanielbyrne",
+    "email": "realdanielbyrne@icloud.com"
+  }
   "skills": [
     {
       "folder": "hf-llm-trainer",
